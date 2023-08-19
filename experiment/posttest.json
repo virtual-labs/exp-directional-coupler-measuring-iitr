@@ -1,39 +1,6 @@
-{
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
-}
+[{"question":"The main disadvantage of the two hole directional coupler is","answers":{"a":"low directional coupling","b":"poor directivity","c":"high standing wave ratio","d":"narrow bandwidth"},"correctAnswer":"d"},
+{"question":"In a directional coupler","answers":{"a":"isolation (dB) equals coupling plus directivity","b":"coupling (dB) equals isolation plus directivity","c":"directivity (dB) equals isolation plus coupling","d":"isolation (dB) equals (coupling) (directivity)"},"correctAnswer":"a"},
+{"question":"Where is the resistive load placed in a directional coupler?","answers":{"a":"front end of the primary","b":"front end of the secondary","c":"back end of the primary","d":"back end of the secondary"},"correctAnswer":"d"},
+{"question":"How high a frequency can transistor generate?","answers":{"a":"above 10 GHz","b":"above 5 GHz","c":"above 2 GHz","d":"above 7.8 GHz"},"correctAnswer":"a"},
+{"question":"Coupling factor of a directional coupler must be maximum and is a key factor that determines the performance of the coupler.","answers":{"a":"True","b":"False"},"correctAnswer":"a"}]
+
