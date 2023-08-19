@@ -1,39 +1,5 @@
-{
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
-}
+[{"question":"What are limits of microwaves?","answers":{"a":"1 – 25,000 GHz","b":"1 – 50,000 GHz","c":"1 – 75,000 GHz","d":"1 – 100,000 GHz"},"correctAnswer":"d"},
+{"question":"How much must a waveguide be?","answers":{"a":"over a half-wave","b":"over a quarter-wave","c":"over a wavelength","d":"over three-fourths of a wavelength"},"correctAnswer":"a"},
+{"question":"Which microwave tube has a repeller?","answers":{"a":"TWT","b":"Klystron","c":"Magnetron","d":"BWO"},"correctAnswer":"b"},
+{"question":"________ is the main advantage of a microwave.","answers":{"a":"frequency multiplier","b":"Moves at the speed of light","c":"Highly directive","d":"High penetration power"},"correctAnswer":"c"},
+{"question":"______ principle does Klystron operates","answers":{"a":"Velocity Modulation","b":"Pulse Modulation","c":"Frequency Modulation","d":"Amplitude Modulation"},"correctAnswer":"a"}]
