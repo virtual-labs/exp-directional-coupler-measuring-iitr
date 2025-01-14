@@ -82,12 +82,11 @@
     async function sleeps(milli_seconds = 2000) {return new Promise(done => setTimeout(() => done(), milli_seconds));}
 
     async function calculate() {
+
       var vv1= localStorage.getItem("V1")
-      console.log(vv1)
-           var vv2= localStorage.getItem("V2")
-           console.log(vv2)
-           var vv3 = document.getElementById('V4').value*0.1
-           console.log(vv3)
+      var vv2= localStorage.getItem("V2")
+      var vv3 = document.getElementById('V4').value*0.1
+           
 document.getElementById("coupling").innerText = ( 20*(Math.log10((vv1/vv3)))).toFixed(2);
 document.getElementById("directivity").innerText = ( 20*(Math.log10((vv2/vv3)))).toFixed(2);
 await sleeps(400);
@@ -109,6 +108,7 @@ Swal.fire({
   html:'Click on <b style="color:blue">Print</b> button to print your current page (readings and connections).',     
   icon:'info',
   });
+  document.getElementById("ccccc").disabled= true;
   document.getElementById("print").disabled= false;
     }
 
@@ -172,7 +172,8 @@ return;
 
   <td>
    <div id="exph">
-    <h2 id="expm">  To Study The Characteristics Of Multihole Directional Coupler &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <button ondblclick="hide()" onclick="hov()" id="help">INSTRUCTIONS</button> </h2>
+    <h2 id="expm">  Directional Coupler Characteristics &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 
+      <button ondblclick="hide()" style="font-family: 'Times New Roman', Times, serif;" onclick="hov()" id="help">INSTRUCTIONS</button> </h2>
     </div>
     <div id="container">
       <div id="carouselContent" class="carousel" data-interval="false">
@@ -375,7 +376,7 @@ return;
              </tr>
              <tr>
                <td>
-                 20log10(V1/V4) =
+                 20log<sub>10</sub>(V1/V4) =
                </td>
               <td id="coupling">
                   
@@ -392,7 +393,7 @@ return;
              </tr>
              <tr>
                <td>
-                 20log10(V2/V4) =
+                 20log<sub>10</sub>(V2/V4) =
                </td>
                <td id="directivity">
                   
@@ -678,13 +679,6 @@ return;
       
       </table>
        
-
-          
-       
-        
-          
-          
-        
         <div id="but">
           <button id="check" onclick="appear()">Components</button>
           <button id="check11" disabled>Check Connections</button>
@@ -692,6 +686,7 @@ return;
           <button id="print" disabled onclick="print()">Print</button>
           <button id="reset" onclick="reset()">Reset</button>
         </div>
+        
         <div id="prop" style="position: relative; top:70px; left:100px; ">
           
        
@@ -725,7 +720,7 @@ return;
 </footer>
 </body>
 
-<script src="js/JogDial3.js"></script>
+<script src="js/jogDial3.js"></script>
 <script src="js/jsplumb1.js"></script>
 <!-- /JS -->
 
